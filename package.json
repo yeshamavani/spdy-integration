@@ -1,0 +1,20 @@
+{
+  "name": "spdy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "http2": "tsc && node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "spdy": "^4.0.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/mocha": "^10.0.0"
+  }
+}
